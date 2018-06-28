@@ -18,10 +18,20 @@ header {
 .fixed-nav {
   position: fixed;
   top: 0;
+  left: 0;
   background-color: blue;
   /* background: url(images/orange.jpg) no-repeat center top fixed; */
   width: 100%;
   z-index: 10;
+}
+
+#main-nav {
+  position: relative;
+}
+
+.navi {
+  position: absolute;
+  right: 0;
 }
 
 #main-nav {
