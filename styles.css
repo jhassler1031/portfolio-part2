@@ -8,3 +8,22 @@ img {
 }
 
 /* Specific Elements */
+
+/* =========================== Header/NAV ============================== */
+header {
+  /* background: url(images/orange.jpg) no-repeat center top fixed; */
+  width: 100%;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  background-color: blue;
+  /* background: url(images/orange.jpg) no-repeat center top fixed; */
+  width: 100%;
+  z-index: 10;
+}
+
+#main-nav {
+  min-height: 165px;
+}
