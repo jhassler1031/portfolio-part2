@@ -11,6 +11,29 @@ img {
 
 /* =========================== Header/NAV ============================== */
 header {
+  background-color: lightblue;
+  height: 450px;
+  padding-top: 100px;
+}
+.header-text {
+  margin-top: 100px;
+  padding-left: 100px;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: lightgray;
+  padding-top: 25px;
+  padding-bottom:  25px;
+}
+
+
+
+
+/* header {
   /* background: url(images/orange.jpg) no-repeat center top fixed; */
   width: 100%;
 }
@@ -36,4 +59,4 @@ header {
 
 #main-nav {
   min-height: 165px;
-}
+} */
