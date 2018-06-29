@@ -15,7 +15,7 @@ body {
 
 /* Specific Elements */
 .main {
-  background-color: gray;
+  background-color: #E7E7E7;
   width: 100%;
 }
 
@@ -43,16 +43,18 @@ header {
   padding-bottom:  25px;
   background: url("images/sky copy.jpg") no-repeat center top;
   background-size: cover;
+  border: 2px solid #F0F0F0;
 }
 
 /* ================================ About ================================= */
 #about {
-  width: 100%;
-  margin-right: 0;
+  padding-top: 40px;
 }
 
 .about-item {
-  background-color: #E6E6E6;
+  background-color: #F0F0F0;
+  padding: 20px 40px;
+  margin-bottom: 30px;
 }
 
 /* ================================= Work ================================= */
