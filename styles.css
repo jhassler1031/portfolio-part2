@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Montserrat|Shrikhand|Titillium+Web|Ubuntu');
+
 /* General Elements */
 * {
   box-sizing: border-box;
@@ -7,11 +9,22 @@ img {
   width: 100%;
 }
 
+body {
+  font-family: helvetica, sans-serif;
+}
+
 /* Specific Elements */
+.main {
+  background-color: gray;
+  width: 100%;
+}
+
 
 /* =========================== Header/NAV ============================== */
 header {
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  background: url("images/sky copy.jpg") no-repeat fixed;
+  background-size: cover;
   height: 450px;
   padding-top: 100px;
 }
@@ -28,35 +41,22 @@ header {
   background-color: lightgray;
   padding-top: 25px;
   padding-bottom:  25px;
+  background: url("images/sky copy.jpg") no-repeat center top;
+  background-size: cover;
 }
 
+/* ================================ About ================================= */
+#about {
+  width: 100%;
+  margin-right: 0;
+}
 
+.about-item {
+  background-color: #E6E6E6;
+}
 
-
-/* header {
-  /* background: url(images/orange.jpg) no-repeat center top fixed; */
+/* ================================= Work ================================= */
+.project {
+  background-color: lightblue;
   width: 100%;
 }
-
-.fixed-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: blue;
-  /* background: url(images/orange.jpg) no-repeat center top fixed; */
-  width: 100%;
-  z-index: 10;
-}
-
-#main-nav {
-  position: relative;
-}
-
-.navi {
-  position: absolute;
-  right: 0;
-}
-
-#main-nav {
-  min-height: 165px;
-} */
