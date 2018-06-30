@@ -107,6 +107,21 @@ header {
   margin-bottom: 30px;
 }
 
+.about-item a {
+  color: #648240;
+  text-decoration: underline;
+}
+
+.about-item a:hover {
+  color: #A2B768;
+}
+
+.headshot-image {
+  height: 400px;
+  overflow: hidden;
+  /* margin-bottom: 20px; */
+}
+
 .contact-me a {
   color: lightblue;
   margin-right: 5px;
