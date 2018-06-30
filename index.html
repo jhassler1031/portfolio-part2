@@ -17,6 +17,8 @@
       </div>
     </header>
 
+    <!-- Structure - Bootstrap container started in the header, using a row/columns
+      for spacing the items in there. -->
     <nav class="navigation">
       <div class="nav-bar col-12">
         <div class="row justify-content-between">
@@ -30,11 +32,9 @@
             <span class="phone-number">1(864) 123-4567</span>
             <span class="email-address">jhassler1031@gmail.com</span>
           </div>
-
-
         </div>
 
-          <div class="col-2">
+          <div class="col-2 nav-buttons">
             <span><a href="#about">About</a></span>
             <span><a href="#work">Work</a></span>
           </div>
@@ -42,10 +42,14 @@
       </div>
     </nav>
 
-    <div class="main">
-      <div id="main-container" class="container">
+    <!-- Start of About Section ========================================== -->
 
-        <!-- Start of About Section ========================================== -->
+    <!-- Structure - div main used for setting the background color, then the container for
+      bootstrap structure. Two columns, larger has the about me and hobby sections, Second
+      has the resume and tech skills listed.-->
+    <div class="main">
+      <div class="container">
+
         <div id="about" class="row">
           <div id="about-left" class="col-12 col-md-7">
             <div class="about-me about-item">
@@ -60,7 +64,7 @@
             </div>
 
             <div class="contact-me about-item">
-              <h1>Keep In Touch</h1>
+              <h1>Connect</h1>
               <a href="#">LinkedIn</a>
               <a href="#">GitHub</a>
             </div>
@@ -78,6 +82,7 @@
               <h1>Technologies</h1>
               <ul class="tech-list">
                 <li>Python</li>
+                <li>Django</li>
                 <li>HTML</li>
                 <li>CSS</li>
               </ul>
@@ -91,22 +96,35 @@
     <!-- End of container ================================================== -->
 
         <!-- Start of Work Section =========================================== -->
+
+        <!-- Structure - using div project to wrap each project section in order to set the background
+        color.  Then starting a container for bootstrap structure using two columns.  First columns
+        is the larger and contains the project picture.  Second column has two sections, the Project
+        description and the listing of tech used. -->
     <div id="work">
-      <div class="project">
+      <div class="project green-1">
         <div class="container">
-          <h1 class="work-intro">My Best Work So Far</h1>
-          <h1 class="project-title">Project Title Here</h1>
+          <h1 class="work-intro">Some Of My Work</h1>
+          <h1 class="project-title">The Record Store</h1>
           <div class="row project-info">
             <div class="col-12 col-md-7">
-              <img src="#" alt="Picture of Project" class="project-image">
+              <div class="image-container">
+                <img src="images/record-store.jpg" alt="Picture of Project" class="project-image">
+              </div>
             </div>
 
             <div class="col-12 col-md-5">
               <p class="project-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                
               </p>
               <p class="tech-used">
-                Python
+                <span>Python</span>
+                <span>Django</span>
+                <!-- <br /> -->
+              <p class="links">
+                <a href="https://github.com/jhassler1031/record-store" class="project-link">GitHub</a>
+                <a href="#" class="project-link">Live Site</a>
+              </p>
               </p>
             </div>
           </div>
@@ -114,12 +132,14 @@
       </div>
       <!-- End of one project -->
 
-      <div class="project">
+      <div class="project gray-1">
         <div class="container">
-          <h1 class="project-title">Project Title Here</h1>
+          <h1 class="project-title">Sk8</h1>
           <div class="row project-info">
             <div class="col-12 col-md-7">
-              <img src="#" alt="Picture of Project" class="project-image">
+              <div class="image-container">
+                <img src="images/sk8website.png" alt="Picture of Sk8 Website" class="project-image">
+              </div>
             </div>
 
             <div class="col-12 col-md-5">
@@ -127,7 +147,12 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <p class="tech-used">
-                Python
+                <span>HTML</span>
+                <span>CSS</span>
+              </p>
+              <p class="links">
+                <a href="https://github.com/jhassler1031/sk8" class="project-link">Github</a>
+                <a href="https://jhassler1031.github.io/sk8/" class="project-link">Live Site</a>
               </p>
             </div>
           </div>
@@ -135,10 +160,10 @@
       </div>
       <!-- End of one project -->
 
-      <div class="project">
+      <div class="project green-2">
         <div class="container">
           <div class="container">
-            <h1 class="project-title">Project Title Here</h1>
+            <h1 class="project-title">Minesweeper</h1>
             <div class="row project-info">
               <div class="col-12 col-md-7">
                 <img src="#" alt="Picture of Project" class="project-image">

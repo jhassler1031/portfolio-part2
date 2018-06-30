@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Montserrat|Shrikhand|Titillium+Web|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Montserrat|Shrikhand|Ubuntu');
 
 /* General Elements */
 * {
@@ -23,14 +23,17 @@ body {
 /* =========================== Header/NAV ============================== */
 header {
   /* background-color: lightblue; */
-  background: url("images/sky copy.jpg") no-repeat fixed;
+  background: url("images/green2.jpg") no-repeat fixed;
   background-size: cover;
   height: 450px;
   padding-top: 100px;
+  color: white;
 }
 .header-text {
   margin-top: 100px;
   padding-left: 100px;
+  font-family: Montserrat;
+  font-size: 1.5rem;
 }
 
 .navigation {
@@ -41,14 +44,51 @@ header {
   background-color: lightgray;
   padding-top: 25px;
   padding-bottom:  25px;
-  background: url("images/sky copy.jpg") no-repeat center top;
+  background: url("images/green2.jpg") no-repeat center top;
   background-size: cover;
   border: 2px solid #F0F0F0;
+  color: white;
+}
+
+.nav-buttons a {
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 13px 18px;
+  margin-right: 10px;
+}
+
+.nav-buttons a:hover {
+  background-color: #E7E7E7;
+  text-decoration: line-through;
+  color: #F08A51;
+}
+
+.personal-info {
+  font-family: Montserrat;
+  font-size: 1rem;
+}
+
+.personal-info .name {
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* ================================ About ================================= */
 #about {
   padding-top: 40px;
+}
+
+#about h1 {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+}
+
+#about p {
+  line-height: 1.5;
+  font-weight: lighter;
+  font-size: 1rem;
 }
 
 .about-item {
@@ -57,8 +97,85 @@ header {
   margin-bottom: 30px;
 }
 
+.contact-me a {
+  color: lightblue;
+  margin-right: 5px;
+  border: 2px lightblue solid;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+.contact-me a:hover {
+  text-decoration: line-through;
+  color: #F08A51;
+}
+
 /* ================================= Work ================================= */
 .project {
   background-color: lightblue;
   width: 100%;
+}
+
+#work {
+  color: white;
+}
+
+.work-intro {
+  font-family: Montserrat;
+  font-size: 2.8rem;
+  padding-top: 10px;
+}
+
+.green-1 {
+  background-color: #C3D3A7;
+}
+
+.gray-1 {
+  background-color: #C5C5C5;
+}
+
+.green-2 {
+  background-color: #A8C474;
+}
+
+.project-info {
+  font-family: Ubuntu;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.image-container {
+  height: 350px;
+  overflow-x: hidden;
+  border: 5px solid gray;
+  margin: 15px;
+}
+
+.project-link {
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.project-link:hover {
+  text-decoration: line-through;
+  color: #F08A51;
+  background-color: #E7E7E7;
+}
+
+.tech-used {
+  text-align: center;
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.links {
+  text-align: center;
 }
