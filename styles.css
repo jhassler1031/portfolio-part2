@@ -13,11 +13,15 @@ body {
   font-family: helvetica, sans-serif;
 }
 
-/* Specific Elements */
-.main {
-  background-color: #E7E7E7;
-  width: 100%;
+/* Removes highlighting when the link has been clicked */
+a::selection {
+  color: none;
+  background-color: none;
+  text-decoration: none;
 }
+
+/* Specific Elements */
+
 
 
 /* =========================== Header/NAV ============================== */
@@ -46,7 +50,7 @@ header {
   padding-bottom:  25px;
   background: url("images/green2.jpg") no-repeat center top;
   background-size: cover;
-  border: 2px solid #F0F0F0;
+  border-bottom: 2px solid #F0F0F0;
   color: white;
 }
 
@@ -76,6 +80,12 @@ header {
 }
 
 /* ================================ About ================================= */
+/* Sets the background color outside of the bootstrap container */
+.about-container {
+  background-color: #E7E7E7;
+  width: 100%;
+}
+
 #about {
   padding-top: 40px;
 }
@@ -138,10 +148,18 @@ header {
   background-color: #A8C474;
 }
 
+.project-container {
+  padding: 30px;
+}
+
 .project-info {
   font-family: Ubuntu;
   font-size: 1.4rem;
   line-height: 1.6;
+}
+
+.project-title {
+  text-decoration: underline;
 }
 
 .image-container {
@@ -174,8 +192,11 @@ header {
   border-bottom: 2px solid lightgray;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .links {
   text-align: center;
+  margin-bottom: 30px;
 }

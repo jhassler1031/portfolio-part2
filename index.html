@@ -47,7 +47,7 @@
     <!-- Structure - div main used for setting the background color, then the container for
       bootstrap structure. Two columns, larger has the about me and hobby sections, Second
       has the resume and tech skills listed.-->
-    <div class="main">
+    <div class="about-container">
       <div class="container">
 
         <div id="about" class="row">
@@ -102,8 +102,9 @@
         is the larger and contains the project picture.  Second column has two sections, the Project
         description and the listing of tech used. -->
     <div id="work">
+      <!-- Start of Record Store Project -->
       <div class="project green-1">
-        <div class="container">
+        <div class="container project-container">
           <h1 class="work-intro">Some Of My Work</h1>
           <h1 class="project-title">The Record Store</h1>
           <div class="row project-info">
@@ -115,7 +116,9 @@
 
             <div class="col-12 col-md-5">
               <p class="project-description">
-                
+                The record store is one of the projects I did at the Carolina Code School.  It is
+                an API that lets you create bands with albums and tracks.  You can then search the
+                database for any band, album, or track.
               </p>
               <p class="tech-used">
                 <span>Python</span>
@@ -130,10 +133,11 @@
           </div>
         </div>
       </div>
-      <!-- End of one project -->
+      <!-- End of Record Store Project -->
 
+      <!-- Start of Sk8 Project -->
       <div class="project gray-1">
-        <div class="container">
+        <div class="container project-container">
           <h1 class="project-title">Sk8</h1>
           <div class="row project-info">
             <div class="col-12 col-md-7">
@@ -144,7 +148,8 @@
 
             <div class="col-12 col-md-5">
               <p class="project-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                The Sk8 website was a project from the front end class at CCS.  I created it
+                based on a mockup image and used bootstrap for positioning elements.
               </p>
               <p class="tech-used">
                 <span>HTML</span>
@@ -158,30 +163,66 @@
           </div>
         </div>
       </div>
-      <!-- End of one project -->
+      <!-- End of Sk8 Project -->
 
+      <!-- Start of Minesweeper Project -->
       <div class="project green-2">
-        <div class="container">
-          <div class="container">
-            <h1 class="project-title">Minesweeper</h1>
-            <div class="row project-info">
-              <div class="col-12 col-md-7">
-                <img src="#" alt="Picture of Project" class="project-image">
+        <div class="container project-container">
+          <h1 class="project-title">Minesweeper</h1>
+          <div class="row project-info">
+            <div class="col-12 col-md-7">
+              <div class="image-container">
+                <img src="images/minesweeper.png" alt="Picture of Underwater Mines" class="project-image">
               </div>
+            </div>
 
-              <div class="col-12 col-md-5">
-                <p class="project-description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <p class="tech-used">
-                  Python
-                </p>
-              </div>
+            <div class="col-12 col-md-5">
+              <p class="project-description">
+                This is a project I just did for fun during the early stages of the backend class
+                at CCS.  It's a simple game of Minesweeper played in the CLI  You can choose a board
+                size and moves are made by entering coordinates.
+              </p>
+              <p class="tech-used">
+                Python
+              </p>
+              <p class="links">
+                <a href="https://github.com/jhassler1031/minesweeper" class="project-link">GitHub</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
       <!-- End of one project -->
+
+      <!-- Start of Tic-Tac-Toe Project -->
+      <div class="project green-1">
+        <div class="container project-container">
+          <h1 class="project-title">Tic-Tac-Toe</h1>
+          <div class="row project-info">
+            <div class="col-12 col-md-7">
+              <div class="image-container">
+                <img src="images/tictactoe.png" alt="Picture of Tic-Tac-Toe Board" class="project-image">
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5">
+              <p class="project-description">
+                This is another one of my projects from early on in the back end class at CCS and was
+                the inspiration for the Minesweeper game.  This is a basic game of Tic-Tac-Toe played
+                in the CLI and moves are made by entering coordinates on the board.
+              </p>
+              <p class="tech-used">
+                <span>Python</span>
+                <!-- <br /> -->
+              <p class="links">
+                <a href="https://github.com/jhassler1031/tic-tac-toe" class="project-link">GitHub</a>
+              </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Tic-Tac-Toe Project -->
 
     </div>
         <!-- End of Work Section ============================================  -->
