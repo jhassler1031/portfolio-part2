@@ -12,7 +12,7 @@
     <header>
       <div class="container">
         <div class="header-text">
-          <p>Hi, I'm John.</p>
+          <p>For the <span class="headline">Thrill of the Build</span></p>
         </div>
       </div>
     </header>
@@ -22,7 +22,7 @@
     <nav class="navigation">
       <div class="nav-bar col-12">
         <div class="row justify-content-between">
-          <div class="col-10">
+          <div class="col-12 col-md-9 col-xl-10">
           <div class="personal-info">
             <span class="name">John Hassler</span>
             <span class="job-title">Full Stack Developer</span>
@@ -34,9 +34,11 @@
           </div>
         </div>
 
-          <div class="col-2 nav-buttons">
-            <span><a href="#about">About</a></span>
-            <span><a href="#work">Work</a></span>
+          <div class="col-12 col-sm-4 col-md-3 col-xl-2 nav-buttons">
+            <!-- <div class="row"> -->
+              <span><a href="#about-link">About</a></span>
+              <span><a href="#work-link">Work</a></span>
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -48,14 +50,24 @@
       bootstrap structure. Two columns, larger has the about me and hobby sections, Second
       has the resume and tech skills listed.-->
     <div class="about-container">
+
       <div class="container">
 
         <div id="about" class="row">
+          <!-- This work link allows compensating for the space of the top nav bar -->
+          <a id="about-link"></a>
           <div id="about-left" class="col-12 col-md-7">
             <div class="about-me about-item">
               <h1>About Me</h1>
               <p id="about-me-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I'm a new developer after just completing an immersive, bootcamp style program in
+                full stack development with an emphasis in back end engineering.  I strive to write
+                readable code that solves problems in an efficient way.
+              </p>
+              <p>
+                I've always been interested in programming but only recently decided to take a leap of faith,
+                leave my ten year career in IT support, and start fresh in the programming world.  I love to solve
+                problems, learn quickly, and thrive on challenge and the "thrill of the build".
               </p>
             </div>
 
@@ -66,16 +78,17 @@
                   <li>Astronomy</li>
                   <li>Video Gaming</li>
                   <li>Hiking</li>
-                  <li>Fishing</li>
-                  <li>Working Out</li>
+                  <li>Learning to Cook</li>
+                  <li>Drinking Coffee <br />
+                    (What good programmer doesn't?)</li>
                 </ul>
               </p>
             </div>
 
             <div class="contact-me about-item">
               <h1>Connect</h1>
-              <a href="#">LinkedIn</a>
-              <a href="#">GitHub</a>
+              <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+              <a href="https://github.com/jhassler1031">GitHub</a>
             </div>
           </div>
 
@@ -118,6 +131,8 @@
         is the larger and contains the project picture.  Second column has two sections, the Project
         description and the listing of tech used. -->
     <div id="work">
+      <a id="work-link"></a>
+
       <!-- Start of Record Store Project -->
       <div class="project green-1">
         <div class="container project-container">
