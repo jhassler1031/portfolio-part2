@@ -62,6 +62,7 @@ header {
 /* Keeps the buttons from moving closer together on smaller sizes */
 .nav-buttons {
   white-space: nowrap;
+  margin-top: 20px;
 }
 
 /* Adds top spacing when buttons move to below other text on small screens */
@@ -87,12 +88,12 @@ header {
 
 .personal-info {
   font-family: Montserrat;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .personal-info .name {
   font-family: Ubuntu;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 
@@ -112,6 +113,7 @@ header {
 #about {
   padding-top: 40px;
   position: relative;
+  line-height: 1.6;
 }
 
 #about h1 {
@@ -123,6 +125,7 @@ header {
   line-height: 1.5;
   font-weight: lighter;
   font-size: 1rem;
+  line-height: 1.6;
 }
 
 .about-item {
@@ -157,6 +160,10 @@ header {
 .contact-me a:hover {
   text-decoration: line-through;
   color: #F08A51;
+}
+
+.connect-links {
+  margin-top: 15px;
 }
 
 /* ================================= Work ================================= */
