@@ -167,6 +167,10 @@ header {
   margin-top: 15px;
 }
 
+.resume-button {
+  text-align: center;
+}
+
 /* ================================= Work ================================= */
 #work-link {
   position: absolute;

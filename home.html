@@ -74,22 +74,40 @@
             <div class="about-item hobbies">
               <h1>Hobbies</h1>
               <p id="hobby-text">
-                <ul>
-                  <li>Astronomy</li>
-                  <li>Video Gaming</li>
-                  <li>Hiking</li>
-                  <li>Learning to Cook</li>
-                  <li>Drinking Coffee</li>
+                <ul class="row">
+                  <div class="col">
+                    <li>Astronomy</li>
+                    <li>Video Gaming</li>
+                    <li>Hiking</li>
+                  </div>
+                  <div class="col">
+                    <li>Learning to Cook</li>
+                    <li>Drinking Coffee</li>
+                  </div>
                 </ul>
               </p>
+            </div>
+
+            <div class="tech-skills about-item">
+              <h1>Tech Skills</h1>
+              <ul class="tech-list row">
+                <div class="col">
+                  <li>Python/Django</li>
+                  <li>JavaScript/React</li>
+                </div>
+                <div class="col">
+                  <li>HTML/CSS/SCSS</li>
+                  <li>Git/GitHub</li>
+                </div>
+              </ul>
             </div>
 
             <div class="contact-me about-item">
               <h1>Connect</h1>
               <div class="connect-links">
-                <a href="https://www.linkedin.com/feed/">LinkedIn</a>
-                <a href="https://github.com/jhassler1031">GitHub</a>
-                <a href="https://twitter.com/jhby4">Twitter</a>
+                <a href="https://www.linkedin.com/in/john-hassler-25810ba/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/jhassler1031" target="_blank">GitHub</a>
+                <a href="https://twitter.com/jhby4" target="_blank">Twitter</a>
               </div>
             </div>
           </div>
@@ -107,17 +125,10 @@
               <p>Lead Tech/Service Manager at <a href="http://www.solutionsunlimitedsc.com/">Solutions Unlimited, Inc.</a>
               for over 10 years.  Desktop/Server/Network Support and Project Implementation.</p>
               <p>Bachelor's Degree in Business Administration from the <a href="https://www.uscupstate.edu/">University of South Carolina, Update</a>.</p>
+              <div class="contact-me resume-button">
+                <a href="./images/Resume.pdf" target="_blank">Get the PDF</a>
+              </div>
             </div>
-
-            <!-- <div class="tech-skills about-item">
-              <h1>Technologies</h1>
-              <ul class="tech-list">
-                <li>Python</li>
-                <li>Django</li>
-                <li>HTML</li>
-                <li>CSS</li>
-              </ul>
-            </div> -->
           </div>
         </div>
       </div>
@@ -135,10 +146,41 @@
     <div id="work">
       <a id="work-link"></a>
 
+      <!-- Start of Reptile Repo Project -->
+      <div class="project green-2">
+        <div class="container project-container">
+          <h1 class="work-intro">Some Of My Work</h1>
+          <h1 class="project-title">The Reptile Repo</h1>
+          <div class="row project-info">
+            <div class="col-12 col-md-7">
+              <div class="image-container">
+                <img src="images/reptile-repo.png" alt="Reptile Repo Vets Page" class="project-image">
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5">
+              <p class="project-description">
+                This is my final project for the Carolina Code School.  The idea of this app is to have a single
+                place for reptile owners to find information on local vets and pet stores that service reptiles,
+                as well as information on illnesses and health needs of pet reptiles.
+              </p>
+              <p class="tech-used">
+                Python/Django JavaScript/React HTML/CSS/SCSS
+              </p>
+              <p class="links">
+                <a href="https://github.com/jhassler1031/reptile-repo" class="project-link" target="_blank">GitHub</a>
+                <a href="https://salty-earth-93578.herokuapp.com/" class="project-link" target="_blank">Live Site</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of one project -->
+
       <!-- Start of Record Store Project -->
       <div class="project green-1">
         <div class="container project-container">
-          <h1 class="work-intro">Some Of My Work</h1>
+          <!-- <h1 class="work-intro">Some Of My Work</h1> -->
           <h1 class="project-title">The Record Store</h1>
           <div class="row project-info">
             <div class="col-12 col-md-7">
@@ -158,8 +200,8 @@
                 <span>Django</span>
                 <!-- <br /> -->
               <p class="links">
-                <a href="https://github.com/jhassler1031/record-store" class="project-link">GitHub</a>
-                <a href="#" class="project-link">Live Site</a>
+                <a href="https://github.com/jhassler1031/record-store" class="project-link" target="_blank">GitHub</a>
+                <!-- <a href="#" class="project-link">Live Site</a> -->
               </p>
               </p>
             </div>
@@ -189,8 +231,8 @@
                 <span>CSS</span>
               </p>
               <p class="links">
-                <a href="https://github.com/jhassler1031/sk8" class="project-link">Github</a>
-                <a href="https://jhassler1031.github.io/sk8/" class="project-link">Live Site</a>
+                <a href="https://github.com/jhassler1031/sk8" class="project-link" target="_blank">Github</a>
+                <!-- <a href="https://jhassler1031.github.io/sk8/" class="project-link">Live Site</a> -->
               </p>
             </div>
           </div>
@@ -219,7 +261,7 @@
                 Python
               </p>
               <p class="links">
-                <a href="https://github.com/jhassler1031/minesweeper" class="project-link">GitHub</a>
+                <a href="https://github.com/jhassler1031/minesweeper" class="project-link" target="_blank">GitHub</a>
               </p>
             </div>
           </div>
@@ -248,7 +290,7 @@
                 <span>Python</span>
                 <!-- <br /> -->
               <p class="links">
-                <a href="https://github.com/jhassler1031/tic-tac-toe" class="project-link">GitHub</a>
+                <a href="https://github.com/jhassler1031/tic-tac-toe" class="project-link" target="_blank">GitHub</a>
               </p>
               </p>
             </div>
